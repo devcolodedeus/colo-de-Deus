@@ -23,7 +23,7 @@ export default function EfeitoAtomiko() {
 							</div>
 
 							<div className="w-full flex items-center justify-end">
-								<Link href="#" target="_blank" className="bg-[#9746a2] text-2xl md:text-6xl text-gray-900 w-fit p-5 font-bold">
+								<Link href="https://pay.kiwify.com.br/JnAIvd8" target="_blank" className="bg-[#9746a2] text-2xl md:text-6xl text-gray-900 w-fit p-5 font-bold">
 									QUERO FAZER PARTE
 								</Link>
 							</div>
@@ -98,7 +98,7 @@ export default function EfeitoAtomiko() {
 							O Efeito Atômiko não é mais um <span className="bg-[#9746a2] p-1">“cursinho”</span> pra você comprar e deixar de canto em 2 dias.<br /> É uma CONVOCAÇÃO URGENTE. Deus sonhou com esse momento!
 						</p>
 
-						<Link href="#" target="_blank" className="bg-[#9746a2] text-xl md:text-4xl text-gray-900 flex items-center justify-center md:w-fit p-5 font-bold">
+						<Link href="https://pay.kiwify.com.br/JnAIvd8" target="_blank" className="bg-[#9746a2] text-xl md:text-4xl text-gray-900 flex items-center justify-center md:w-fit p-5 font-bold">
 							QUERO IMPACTAR O MUNDO
 						</Link>
 					</div>
@@ -162,7 +162,7 @@ export default function EfeitoAtomiko() {
 
 						<p className="md:text-6xl text-2xl font-bold text-center">EFEITO ATOMIKO + CREATIVE SCHOOL DE <span className="text-[#f35653] line-through">R$276,90</span> agora é apenas R$197,00</p>
 
-						<Link href="#" target="_blank" className="bg-[#9746a2] md:text-6xl text-lg w-full text-gray-900 flex items-center justify-center md:w-fit p-5 font-bold">
+						<Link href="https://pay.kiwify.com.br/5bvp9y5" target="_blank" className="bg-[#9746a2] md:text-6xl text-lg w-full text-gray-900 flex items-center justify-center md:w-fit p-5 font-bold">
 							QUERO IMPACTAR O MUNDO
 						</Link>
 					</div>
