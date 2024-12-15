@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #161616;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer components {
+	.my-button {
+		border: 2px solid white;
+		border-radius: 16px;
+		cursor: pointer;
+		min-width: 250px;
+		min-height: 80px;
+		width: fit-content;
+
+		background: #101010;
+		color: white;
+		font-size: 1rem;
+		font-weight: 700;
+		letter-spacing: 7px;
+		position: relative;
+		transform: skewX(-5deg);
+	}
+
+	.my-button::before {
+		border: 2px solid white;
+		border-radius: 16px;
+		cursor: pointer;
+		min-width: 250px;
+		min-height: 80px;
+
+		content: attr(data-label);
+		background: #090909;
+		display: grid;
+		place-items: center;
+		position: absolute;
+		top: -1rem;
+		left: -1rem;
+		z-index: -1;
+		transition: all 0.3s ease;
+	}
+
+	.my-button:hover::before {
+		top: -8px;
+		left: -8px;
+	}
+
+	.my-button:active::before {
+		top: -2px;
+		left: -2px;
+	}
+
+	.my-button:focus {
+		outline: none;
+	}
+
+
+
+	.my-button2 {
+		border: 2px solid #595959;
+		border-radius: 16px;
+		cursor: pointer;
+		min-width: 600px;
+		min-height: 80px;
+		width: fit-content;
+
+		background: #595959;
+		color: #191919;
+		font-size: 1rem;
+		font-weight: 700;
+		letter-spacing: 7px;
+		position: relative;
+		transform: skewX(-5deg);
+	}
+
+	.my-button2::before {
+		border: 2px solid white;
+		border-radius: 16px;
+		cursor: pointer;
+		min-width: 600px;
+		min-height: 80px;
+
+		content: attr(data-label);
+		background: white;
+		display: grid;
+		place-items: center;
+		position: absolute;
+		top: -1rem;
+		left: -1rem;
+		z-index: -1;
+		transition: all 0.3s ease;
+	}
+
+	.my-button2:hover::before {
+		top: -8px;
+		left: -8px;
+	}
+
+	.my-button2:active::before {
+		top: -2px;
+		left: -2px;
+	}
+
+	.my-button2:focus {
+		outline: none;
+	}
+
+
+
+	.my-button3 {
+		border: 2px solid #595959;
+		border-radius: 16px;
+		cursor: pointer;
+		min-width: calc(100% - 10px);
+		min-height: 80px;
+		width: fit-content;
+
+		background: #595959;
+		color: #191919;
+		font-size: 1rem;
+		font-weight: 700;
+		letter-spacing: 7px;
+		position: relative;
+		transform: skewX(-5deg) translateY(20px) translateX(10px);
+	}
+
+	.my-button3::before {
+		border: 2px solid white;
+		border-radius: 16px;
+		cursor: pointer;
+		min-width: 101%;
+		min-height: 80px;
+
+		content: attr(data-label);
+		font-size: 0.9rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		background: white;
+		display: grid;
+		place-items: center;
+		position: absolute;
+		top: -1rem;
+		left: -1rem;
+		z-index: -1;
+		transition: all 0.3s ease;
+	}
+
+	.my-button3:hover::before {
+		top: -8px;
+		left: -8px;
+	}
+
+	.my-button3:active::before {
+		top: -2px;
+		left: -2px;
+	}
+
+	.my-button3:focus {
+		outline: none;
+	}
+}

@@ -1,101 +1,63 @@
-import Image from "next/image";
+"use client";
+
+import { useHeaderTheme, useLanguage } from "@/hooks";
+import { DefaultLayout } from "@/layouts";
+import Link from "next/link";
+import { useEffect } from "react";
+import { data } from "../../data";
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+	const { updateTheme } = useHeaderTheme();
+	const { language } = useLanguage();
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+	useEffect(() => {
+		updateTheme("dark");
+	}, []);
+
+  return (
+		<DefaultLayout>
+			<section id="home-page" className="w-full h-fit">
+				<picture>
+					<source
+						media="(max-width:800px)"
+						srcSet={`${process.env.NEXT_PUBLIC_IMG_URL}/banners/mobile/HOME.png`}
+					/>
+
+					<img src={`${process.env.NEXT_PUBLIC_IMG_URL}/banners/desk/HOME.png`} alt="Welcome to Colo de Deus" className="w-full max-h-screen object-cover" />
+				</picture>
+
+				<div className="w-6/12 mx-auto py-32 grid md:flex gap-10 -translate-x-5 md:translate-x-0 items-center justify-between">
+					<Link href="/eventos">
+						<button className="my-button" data-label={data.home[language].btn_events}></button>
+					</Link>
+
+					<Link href="/nos-encontre">
+						<button className="my-button" data-label={data.home[language].btn_where}></button>
+					</Link>
+
+					<Link href="https://hyperfy.adalo.com/celulascolodedeus" target="_blank">
+						<button className="my-button" data-label={data.home[language].btn_cells}></button>
+					</Link>
+				</div>
+
+				<div className="w-11/12 md:w-9/12 mx-auto p-5 flex flex-col gap-5">
+					<span className="uppercase font-bold ml-2">{data.home[language].meta}</span>
+
+					<div className="flex items-center justify-end uppercase font-bold text-xl rounded-lg bg-gradient-to-r from-pink-800 via-purple-950 to-green-950">
+						<span className="bg-gradient-to-l from-black to-transparent py-4 px-5 rounded-r-lg text-sm md:text-base">{data.home[language].percent}</span>
+					</div>
+				</div>
+
+				<div className="w-9/12 md:w-6/12 mx-auto py-16 md:flex gap-10 items-center justify-center">
+					<Link href="/benfeitoria" target="_blank" className="w-full">
+						<button className="my-button3 uppercase" data-label={data.home[language].help}></button>
+					</Link>
+				</div>
+
+				<div className="w-10/12 md:w-6/12 mx-auto text-center pb-16">
+					<p className="tracking-[0.4rem] text-neutral-300">{data.home[language].who}</p>
+				</div>
+			</section>
+		</DefaultLayout>
   );
 }
