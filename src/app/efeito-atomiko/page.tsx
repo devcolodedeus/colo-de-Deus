@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function EfeitoAtomiko() {
 	return (
-		<section className="overflow-x-hidden">
-			<div className="w-screen py-10 md:py-0 md:h-screen relative">
+		<section className="overflow-x-hidden text-white">
+			<div className="w-screen py-10 md:py-0 md:h-screen relative text-white">
 				<img src={`${process.env.NEXT_PUBLIC_IMG_URL}/efeito-atomiko/banner-1.png`} alt="" className="absolute top-0 left-0 -z-10 w-full h-full object-cover object-right" />
 
 				<div className="w-full h-full flex">
@@ -12,7 +12,7 @@ export default function EfeitoAtomiko() {
 						<img src={`${process.env.NEXT_PUBLIC_IMG_URL}/efeito-atomiko/logo-efeito-atomiko.png`} alt="" className="w-10/12 md:w-[50%]" />
 
 						<div className="text-right w-5/6 flex flex-col gap-5">
-							<h2 className="text-right text-2xl md:text-[3.45rem] font-bold uppercase leading-tight">
+							<h2 className="text-right text-2xl md:text-[3.45rem] font-bold uppercase leading-tight text-white">
 								Agora você tem nas mãos<br /> a ferramenta que<br /> pode mudar essa geração!
 							</h2>
 
@@ -28,7 +28,7 @@ export default function EfeitoAtomiko() {
 								</Link>
 							</div>
 
-							<p className="uppercase text-2xl md:text-3xl font-medium">de <span className="line-through">R$397</span> por <span className="font-bold">R$79,90</span></p>
+							<p className="uppercase text-2xl md:text-3xl text-white font-medium">de <span className="line-through">R$397</span> por <span className="font-bold">R$79,90</span></p>
 						</div>
 					</div>
 				</div>
@@ -39,24 +39,23 @@ export default function EfeitoAtomiko() {
 
 				<div className="md:w-[50%] mx-auto h-full">
 					<div className="md:w-[72%] h-full flex flex-col items-center justify-center gap-10 px-5 uppercase">
-						<p className="text-xl font-medium text-justify">
+						<p className="text-xl font-medium text-justify text-white">
 							É, eu sei, o Geração Atômika é realmente impactante! Você deve estar totalmente embriagado da presença de Deus, querendo falar de Jesus pra todo mundo. E você deve estar se perguntando:
 						</p>
 
 						<div className="w-full">
-							<p className="font-bold text-xl">O que acontece agora? </p>
+							<p className="font-bold text-xl text-white">O que acontece agora? </p>
 
-							<p className="text-xl font-medium"><span className="mr-5 text-2xl">-</span> Como continuar a viver essa chama;</p>
-							<p className="text-xl font-medium"><span className="mr-5 text-2xl">-</span> transformadora e levá-la a outros?</p>
+							<p className="text-xl font-medium text-white"><span className="mr-5 text-2xl">-</span> Como continuar a viver essa chama transformadora e levá-la a outros?</p>
 						</div>
 
-						<p className="text-xl font-medium text-justify">
+						<p className="text-xl font-medium text-justify text-white">
 							O Efeito Atômiko foi pensado para te desenvolver espiritualmente e te capacitar a se tornar um verdadeiro líder na evangelização, capaz de impactar profundamente todos que necessitam de um avivamento, PRINCIPALMENTE sendo um sinal de Deus na sociedade.
 						</p>
 
-						<p className="w-full text-4xl font-bold">uma bomba atomika do<br /> amor de Deus.</p>
+						<p className="w-full text-4xl font-bold text-white">uma bomba atomika do<br /> amor de Deus.</p>
 
-						<p className="text-xl font-medium">
+						<p className="text-xl font-medium text-white">
 							Se você está aqui, é porque sabe que Deus conta com você para fazer a diferença nos dias atuais.
 						</p>
 					</div>
@@ -67,7 +66,7 @@ export default function EfeitoAtomiko() {
 				<img src={`${process.env.NEXT_PUBLIC_IMG_URL}/efeito-atomiko/banner-3.png`} alt="" className="absolute top-0 left-0 -z-10 w-full h-full object-cover" />
 
 				<div className="px-5 md:px-0 md:w-6/12 mx-auto h-full flex flex-col justify-center gap-10">
-					<h3 className="text-xl md:text-5xl font-bold">COMO O EFEITO ATÔMIKO VAI TE COLOCAR EM AÇÃO?</h3>
+					<h3 className="text-xl md:text-5xl font-bold text-white">COMO O EFEITO ATÔMIKO VAI TE COLOCAR EM AÇÃO?</h3>
 
 					<p className="text-gray-300 text-xl uppercase text-justify font-semibold leading-relaxed tracking-wider">É simples: ao se inscrever no Efeito Atômiko, você desbloqueia um novo nível de consciência e autoridade a para sua missão. 3 módulos essenciais para você entender seu papel no Reino de Deus e aprender a executá-lo da melhor forma possível, praticando a caridade e as virtudes para ser aquilo que Deus quer.<br /> Se liga:</p>
 
@@ -77,7 +76,7 @@ export default function EfeitoAtomiko() {
 						<img src={`${process.env.NEXT_PUBLIC_IMG_URL}/efeito-atomiko/cards/card-3.png`} alt="" />
 					</div>
 
-					<p className="uppercase text-lg tracking-widest">Esses módulos vão equipá-lo com os conhecimentos e habilidades necessárias para cumprir sua missão com excelência.</p>
+					<p className="uppercase text-lg tracking-widest text-white">Esses módulos vão equipá-lo com os conhecimentos e habilidades necessárias para cumprir sua missão com excelência.</p>
 				</div>
 			</div>
 
@@ -94,7 +93,7 @@ export default function EfeitoAtomiko() {
 							<p className="text-gray-300 uppercase text-xl font-medium text-justify">A partir dessa decisão hoje, você estará respondendo para Deus:</p>
 						</div>
 
-						<p className="text-3xl font-bold uppercase">
+						<p className="text-3xl font-bold uppercase text-white">
 							O Efeito Atômiko não é mais um <span className="bg-[#9746a2] p-1">“cursinho”</span> pra você comprar e deixar de canto em 2 dias.<br /> É uma CONVOCAÇÃO URGENTE. Deus sonhou com esse momento!
 						</p>
 
@@ -124,7 +123,7 @@ export default function EfeitoAtomiko() {
 
 						<p className="text-gray-300 uppercase md:text-2xl font-semibold text-justify tracking-widest">É A PRIMEIRA E PROVAVELMENTE A ÚLTIMA VEZ QUE FAREMOS ALGO ASSIM:</p>
 
-						<p className="text-2xl md:text-6xl font-bold">SÓ OS PARTICIPANTES DO GERA’24 TÊM ACESSO A ESSA OPORTUNIDADE!</p>
+						<p className="text-2xl md:text-6xl text-white font-bold">SÓ OS PARTICIPANTES DO GERA’24 TÊM ACESSO A ESSA OPORTUNIDADE!</p>
 
 						<p className="text-gray-300 uppercase text-xl md:text-2xl font-semibold text-justify tracking-widest">O Efeito Atômiko é para aqueles que já viveram a experiência do Geração Atômika. Não é só um curso, é uma continuidade.. Você foi tocado de maneira única e agora é hora de aprofundar esse chamado e se tornar um líder transformador.</p>
 					</div>
@@ -135,7 +134,7 @@ export default function EfeitoAtomiko() {
 				<img src={`${process.env.NEXT_PUBLIC_IMG_URL}/efeito-atomiko/banner-final.png`} alt="" className="absolute top-0 left-0 -z-10 w-full h-full object-cover" />
 
 				<div className="p-5 md:p-20 flex flex-col gap-10 md:gap-20">
-					<h2 className="w-full md:w-11/12 text-2xl md:text-6xl font-bold uppercase">Este curso foi desenvolvido pelos melhores líderes da Colo de Deus, como:</h2>
+					<h2 className="w-full md:w-11/12 text-2xl md:text-6xl text-white font-bold uppercase">Este curso foi desenvolvido pelos melhores líderes da Colo de Deus, como:</h2>
 
 					<div className="grid md:grid-cols-3 gap-5 md:gap-20">
 						<img src={`${process.env.NEXT_PUBLIC_IMG_URL}/efeito-atomiko/cards/gui.png`} alt="" />
@@ -154,13 +153,13 @@ export default function EfeitoAtomiko() {
 					<p className="text-xl text-justify md:text-left font-medium text-gray-300 tracking-widest uppercase">Com esse time de excelência, você aprenderá as estratégias<br /> que irão impactar o Brasil e o mundo!</p>
 
 					<div className="w-11/12 md:w-8/12 mx-auto flex gap-10 flex-col items-center justify-center">
-						<p className="md:text-6xl text-2xl font-bold text-center">VOCÊ VAI CONTINUAR ESPERANDO ATÉ QUANDO?</p>
+						<p className="md:text-6xl text-2xl font-bold text-center text-white">VOCÊ VAI CONTINUAR ESPERANDO ATÉ QUANDO?</p>
 
 						<p className="text-center md:text-xl tracking-widest text-gray-300 uppercase">A chance de transformar sua decisão e mudar o destino de uma alma está a um botão de distância. O Efeito Atômiko já está aqui, pronto para capacitar você a ser o líder que Deus espera que você seja. Cada momento perdido é uma oportunidade que se vai, uma pessoa que se condena e Deus precisa pra agora, PRA ONTEM!</p>
 
-						<p className="md:text-5xl text-xl font-bold text-center">DÊ UM UPGRADE COM O CREATIVE SCHOOL</p>
+						<p className="md:text-5xl text-xl font-bold text-center text-white">DÊ UM UPGRADE COM O CREATIVE SCHOOL</p>
 
-						<p className="md:text-6xl text-2xl font-bold text-center">EFEITO ATOMIKO + CREATIVE SCHOOL DE <span className="text-[#f35653] line-through">R$276,90</span> agora é apenas R$197,00</p>
+						<p className="md:text-6xl text-2xl font-bold text-center text-white">EFEITO ATOMIKO + CREATIVE SCHOOL DE <span className="text-[#f35653] line-through">R$276,90</span> agora é apenas R$197,00</p>
 
 						<Link href="https://pay.kiwify.com.br/5bvp9y5" target="_blank" className="bg-[#9746a2] md:text-6xl text-lg w-full text-gray-900 flex items-center justify-center md:w-fit p-5 font-bold">
 							QUERO IMPACTAR O MUNDO
@@ -175,7 +174,7 @@ export default function EfeitoAtomiko() {
 				<div className="flex flex-col gap-10 md:flex-row items-center justify-between md:px-20">
 					<img src={`${process.env.NEXT_PUBLIC_IMG_URL}/efeito-atomiko/logo-efeito-atomiko.png`} alt="" className="w-9/12 md:w-2/12" />
 
-					<p className="text-xl text-center">ASSOCIACAO COLO DE DEUS E SANTISSIMA VIRGEM (A.C.D.S.V) (COMUNIDADE COLO DE DEUS) | 23.352.122/0001-42.</p>
+					<p className="text-xl text-center text-white">ASSOCIACAO COLO DE DEUS E SANTISSIMA VIRGEM (A.C.D.S.V) (COMUNIDADE COLO DE DEUS) | 23.352.122/0001-42.</p>
 				</div>
 			</div>
 		</section>
