@@ -35,7 +35,7 @@ export const data = {
 			btn_cells: "Células",
 			meta: "meta de arrecadação",
 			percent: "faltam ainda 30%",
-			help: "nos ajude a vencer essa nais esta",
+			help: "nos ajude a vencer essa mais esta",
 			who: "A Colo de Deus é uma Comunidade Católica nascida para trazer ao seio da igreja os afastados da fé.",
 		},
 		en: {
