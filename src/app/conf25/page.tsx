@@ -22,7 +22,7 @@ export default function Conf25() {
 					</div>
 
 					<div className="w-full h-full -translate-y-14 md:translate-y-0">
-						<Link href="https://www.e-inscricao.com/colodedeus/conf25" className="w-full h-full bg-[#314fe2] flex items-center justify-center rounded-lg font-bold text-3xl md:text-5xl px-10 py-5">COMPRE AQUI</Link>
+						<Link href="https://www.e-inscricao.com/colodedeus/conf25" className="w-full h-full bg-[#314fe2] flex items-center justify-center rounded-lg font-bold text-3xl md:text-5xl px-10 py-5">GARANTA SEU LUGAR</Link>
 					</div>
 
 					<div className="hidden md:flex items-center justify-start">
