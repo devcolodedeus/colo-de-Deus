@@ -50,7 +50,7 @@ export default function Benfeitoria() {
           viewport={{ once: true }}
         >
           <Link
-            href="https://app.vindi.com.br/customer/pages/de5aa969-e26c-4686-958b-8e5291948fa7/subscriptions/new"
+            href="https://api.webpag.com.br/subscribe/6f7fde8d-ed6d-42a3-8304-67e7c726515f"
             target="_blank"
             className="py-4 my-2 px-24 bg-gray-200 text-gray-700 rounded-full text-xl"
           >
@@ -686,7 +686,7 @@ export default function Benfeitoria() {
         </motion.h2>
 
         <Link
-          href="https://app.vindi.com.br/customer/pages/de5aa969-e26c-4686-958b-8e5291948fa7/subscriptions/new"
+          href="https://api.webpag.com.br/subscribe/6f7fde8d-ed6d-42a3-8304-67e7c726515f"
           target="_blank"
           className="py-4 px-20 bg-[#fe0041] text-gray-200 rounded-full text-xl my-20"
         >
