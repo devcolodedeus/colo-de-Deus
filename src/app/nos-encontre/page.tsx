@@ -82,7 +82,7 @@ const missoesData = [
     nome: "Vinícius Carvalho",
     cidade: "Maringá/PR",
     missao: "Frente de Missão",
-    whatsapp: "16988080232",
+    whatsapp: "44991772733",
   },
   {
     id: 12,
