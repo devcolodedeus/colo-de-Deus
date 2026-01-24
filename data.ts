@@ -116,6 +116,9 @@ export const data = {
 	},
 	findus: {
 		pt: {
+			bring_title: "Leve a Colo de Deus para sua cidade",
+			bring_subtitle: "Quer abrir uma frente de missão na sua região? Entre em contato e faça parte dessa expansão do Reino!",
+			bring_btn: "Falar no WhatsApp",
 			cell_title: "encontre a célula mais próxima",
 			cell_description: "As Células YSHV são a principal ferramenta de evangelização e formação de líderes da Colo de Deus: lugar de gente imperfeita que cuida de gente imperfeita! São pequenos grupos de até 12 pessoas que se encontram semanalmente, como faziam os primeiros discípulos, um a um colocando tudo em comum para se tornar uma multidão e construir o Reino de Deus <3 A #Célula é o lugar ideal pra você que quer entender o seu lugar, destravar o seu chamado e descobrir o que você pode fazer para trazer os afastados para a Igreja de novo.",
 			cell_btn: "ENTRE NO NOSSO HUB DE CÉLULAS",
@@ -125,6 +128,9 @@ export const data = {
 			headquarters_contact: "Contato"
 		},
 		en: {
+			bring_title: "Bring Colo de Deus to your city",
+			bring_subtitle: "Want to open a mission front in your region? Get in touch and be part of this Kingdom expansion!",
+			bring_btn: "Chat on WhatsApp",
 			cell_title: "find the nearest cell",
 			cell_description: "The YSHV Cells are the main tool for evangelisation and leadership training of Colo de Deus: a place of imperfect people who take care of imperfect people! They are small groups of up to 12 people who meet weekly, as the first disciples did, one by one putting everything they have in common to become a crowd and build the Kingdom of God <3 The #Cell is the ideal place for you who want to understand your place, unlock your calling and find out what you can do to bring back to Church those who are estranged. In the Cells of Colo de Deus, we understand that for an efficient and excellent evangelisation there has to be a safe and welcoming environment, it needs to go through an intentional shepherding, and to disciple people so that new leaders are raised for the Church <3",
 			cell_btn: "ENTER OUR CELL HUB",
@@ -134,6 +140,9 @@ export const data = {
 			headquarters_contact: "Contact"
 		},
 		es: {
+			bring_title: "Lleva Colo de Deus a tu ciudad",
+			bring_subtitle: "¿Quieres abrir un frente de misión en tu región? ¡Ponte en contacto y sé parte de esta expansión del Reino!",
+			bring_btn: "Hablar por WhatsApp",
 			cell_title: "encontrar la celda más cercana",
 			cell_description: "Las Células YSHV son la principal herramienta de evangelización y formación de líderes de la Colo de Deus: ¡un lugar de gente imperfecta que cuida de gente imperfecta! Son pequeños grupos de hasta 12 personas que se reúnen semanalmente, tal como lo hacían los primeros discípulos, compartiendo todo en común para convertirse en una multitud y construir el Reino de Dios <3 La #Célula es el espacio ideal para ti, que quieres entender tu lugar, desbloquear tu llamado y descubrir qué puedes hacer para traer de vuelta a los alejados a la Iglesia. En las Células de la Colo de Deus, entendemos que para que una evangelización sea eficaz y excelente, necesita un ambiente seguro y acogedor, pasar por un pastoreo intencional y discipular personas para que nuevos líderes sean levantados para la Iglesia <3",
 			cell_btn: "ENTRA A NUESTRO HUB CELULAR",

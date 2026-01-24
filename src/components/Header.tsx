@@ -86,7 +86,7 @@ export const Header = () => {
 
 					<Link href="/nos-encontre" className="group transition-all hover:underline">{data.header[language].findus}</Link>
 
-					<Link href="/benfeitoria" target="_blank" className="group transition-all hover:underline">{data.header[language].beBenefactor}</Link>
+					<Link href="https://amigopratodaobra.colodedeus.com" target="_blank" className="group transition-all hover:underline">{data.header[language].beBenefactor}</Link>
 
 					<Link href="https://loja.colodedeus.com/" target="_blank" className="group transition-all hover:underline">{data.header[language].store}</Link>
 				</div>

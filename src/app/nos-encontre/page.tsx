@@ -221,6 +221,22 @@ export default function NosEncontre() {
         />
       </picture>
 
+      {/* Seção: Leve a Colo de Deus para sua cidade */}
+      <div className="w-11/12 md:w-7/12 mx-auto py-16 md:pt-24 pb-16 bg-neutral-900 text-center border-b border-neutral-700">
+        <h2 className="md:tracking-[0.4rem] text-neutral-300 text-2xl md:text-5xl  uppercase text-center">
+          {data.findus[language].bring_title}
+        </h2>
+
+        <Link
+          href="https://wa.me/5544999104607"
+          target="_blank"
+          className="inline-flex mt-10 items-center gap-3 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-full transition-all duration-300 uppercase tracking-wider"
+        >
+          <WhatsappLogo size={24} weight="fill" />
+          {data.findus[language].bring_btn}
+        </Link>
+      </div>
+
       <div className="w-11/12 md:w-7/12 mx-auto py-10 md:py-20 bg-neutral-900">
         <div className="w-full mx-auto flex items-center justify-center md:my-5">
           <h2 className="md:tracking-[0.4rem] text-neutral-300 text-2xl md:text-5xl uppercase text-center">
